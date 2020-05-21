@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+
+{% set page ='index' %}
+
+{% block meta %}
+<title>Lazr website</title>
+<meta content="" name="descriptison">
+<meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+  {% include "parts/about-section.html" %}
+
+  {% include "parts/services-section.html" %}
+
+  {% include "parts/subscribe-section.html" %}
+
+  {% include "parts/portfolio-section.html" %}
+
+  {% include "parts/testimonials-section.html" %}
+
+  {% include "parts/team-section.html" %}
+
+  {% include "parts/contact-section.html" %}
+
+</main><!-- End #main -->
+
+{% endblock %}
