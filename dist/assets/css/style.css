@@ -527,6 +527,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#lightbulb {
+  color: #0277BD;
+  font-size: 4rem;
+  margin-left: 40%;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
