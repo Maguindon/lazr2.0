@@ -530,7 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url("../img/LAZRonLaptop.png") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url("../img/road.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/LAZRonLaptop.png) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/road.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
