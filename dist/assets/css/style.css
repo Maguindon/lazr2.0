@@ -87,7 +87,13 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/) top center;
+}
+
+#hero #videoBG {
+  position: fixed;
+  z-index: -1;
+  /*not work if the screen ratio is below 16/9*/
+  height: 100%;
   background-size: cover;
 }
 
@@ -106,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
   display: table-cell;
   margin: 0;
   padding: 0;
