@@ -4,6 +4,7 @@
 
 /* Nav Menu Essentials */
 .nav-menu {
+
   * {
     margin: 0;
     padding: 0;
@@ -64,6 +65,7 @@
 
 /* Nav Meu Container */
 #nav-menu-container {
+  
   float: right;
   margin: 5px 0;
   @media (max-width: 768px) {
@@ -210,6 +212,7 @@
 /* Mobile Nav body classes */
 body {
   &.mobile-nav-active {
+    
     overflow: hidden;
     
     #mobile-nav {
