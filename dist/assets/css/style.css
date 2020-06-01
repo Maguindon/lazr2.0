@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -519,7 +519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about #imgAbout {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 #about .about-content {
@@ -528,13 +528,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-title {
   color: #333;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: justify;
 }
 
 #about .about-text {
   line-height: 26px;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 #about .about-text:last-child {
@@ -749,7 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: #ffffff;
   padding: 80px 0;
 }
 
