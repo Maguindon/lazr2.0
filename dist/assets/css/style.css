@@ -751,7 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #ffffff;
+  background: #302d2d;
   padding: 80px 0;
 }
 
@@ -813,15 +813,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
-  -o-border-image: linear-gradient(to right, #0277BD 0%, #333333 100%);
-  border-image: linear-gradient(to right, #0277BD 0%, #333333 100%);
+  -o-border-image: linear-gradient(to right, #0277BD 0%, lightblue 100%);
+  border-image: linear-gradient(to right, #0277BD 0%, lightblue 100%);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
-  padding: 40px;
+  padding: 30px 30px 30px 30px;
   counter-increment: section;
   position: relative;
   color: #0277BD;
+  border-radius: 20%;
 }
 
 .timeLineLi:before {
