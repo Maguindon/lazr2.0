@@ -10,7 +10,7 @@
 
   #videoBG {
     position:fixed;
-    z-index: -1;
+    z-index: -5;
 /*not work if the screen ratio is below 16/9*/
     // width:auto;     
     height: 100%;
@@ -25,6 +25,10 @@
     width: 15rem;
   }
 
+  #rotating-text {
+    color: white;
+  }
+
   .hero-logo {
     margin: 20px;
     img {
@@ -34,7 +38,7 @@
   }
 
   .hero-container {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.1);
     display: table-cell;
     margin: 0;
     padding: 0;
