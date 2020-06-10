@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -574,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #0277BD;
+  border: 2px solid #0277BD;
 }
 
 #services .service-icon i {
@@ -656,7 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #f8f9fa;
   background-repeat: no-repeat;
   padding: 80px 0;
 }
@@ -669,6 +669,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-flters li {
+  margin-left: 5px;
+  margin-right: 5px;
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px;
@@ -691,6 +693,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item {
   margin-bottom: 30px;
   z-index: 1;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -700,8 +703,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 15px;
   bottom: 0;
   z-index: 3;
-  transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.85);
+  transition: all ease-in-out 0.5s;
+  background: rgba(2, 119, 189, 0.85);
   padding: 15px;
 }
 
@@ -709,12 +712,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  color: #333333;
   margin-bottom: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
-  color: #666666;
+  color: white;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -761,17 +763,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
 }
 
-#portfolio #portfolioDesign {
-  position: absolute;
-  width: 170%;
-  margin-left: -35%;
-  -webkit-filter: opacity(15%);
-  filter: opacity(15%);
-  margin-top: 30rem;
-  z-index: 0;
-}
-
-/* Testimonials Section
+/* Testimonials Section => how it works section
 --------------------------------*/
 #testimonials {
   background: white;
@@ -785,7 +777,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .timeLineTitle {
-  color: #333 !important;
+  color: #333333 !important;
+  text-transform: uppercase;
 }
 
 #testimonials .profile {
@@ -794,10 +787,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile .pic {
   border-radius: 50%;
+  border: 4px solid #0277BD;
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
   width: 260px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 #testimonials .profile .pic img {
@@ -816,13 +811,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .quote {
   position: relative;
-  color: black;
-  height: 80%;
-  padding: 60px;
+  color: #333333;
+  background: #f8f9fa;
+  height: 75%;
+  padding: 40px;
   margin-top: 40px;
-  font-size: 16px;
-  font-style: italic;
-  border-radius: 5px;
+  line-height: 1.75rem;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 #testimonials .quote b {
@@ -849,6 +847,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials #picDesign {
   width: 100%;
   margin-left: -30%;
+}
+
+#testimonials #Hiwcogs {
+  font-size: 4rem;
+  margin-left: 46%;
+  color: #0277BD;
+}
+
+#testimonials #heropic {
+  margin-top: 2.5rem;
+  width: 90%;
 }
 
 /* TIMELINE 
@@ -917,18 +926,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .timeLineLi:last-child:after {
-  margin-left: 97.5%;
+  margin-left: 94.5%;
   content: "voila!";
   position: absolute;
   border-radius: 50%;
   padding: 0px;
-  height: 3em;
-  width: 3em;
+  height: 3.5em;
+  width: 3.5em;
   background-color: #0277BD;
   text-align: center;
   line-height: 3em;
   color: white;
-  font-size: 1.25em;
+  font-size: 2.25em;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 /* Team Section
@@ -941,6 +951,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
+  margin: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 #team .member .pic {
